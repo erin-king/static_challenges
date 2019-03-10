@@ -11,54 +11,39 @@ header {
   height: 50px;
 }
 
-header h1 {
+h1 {
   padding-left: 25px;
   font-size: 1.5em;
   font-weight: bold;
 }
 
 .login-box {
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #448e00;
   height: 100%;
   width: 100px;
 }
 
-.login-box div {
-  width: 100%;
-  text-align: center;
-  padding-top: 15px;
-}
-
 nav {
-  background: blue;
+  background: #002e65;
   color: white;
   height: 50px;
 }
 
-nav div {
-  height: 50px;
-}
-
-nav ul {
+.nav-list {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 50px;
-  padding-top: 15px;
-}
-
-nav ul li {
   height: 100%;
-  /* vertical-align: center; */
-  text-align: center;
 }
 
-#museum {
+.museum {
   position: relative;
 }
 
-#museum h2 {
+h2 {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -66,7 +51,7 @@ nav ul li {
   font-weight: bold;
 }
 
-#museum img {
+.hero-image {
   height: 100%;
   width: 100%;
 }
@@ -82,12 +67,12 @@ p {
   padding-top: 10px;
 }
 
-#pictures {
+.pictures {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: 250px;
-  background-color: lightgray;
+  background-color: #d9e2ee;
   align-items: center;
 }
 
@@ -99,7 +84,7 @@ p {
 
 }
 
-.info-box img {
+.denver-pics {
   height: 100%;
   width: 100%;
 }
